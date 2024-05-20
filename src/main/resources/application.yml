@@ -1,0 +1,29 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /api/v1
+
+spring:
+  codec:
+    max-in-memory-size: 10MB
+  application:
+    name: CognitiveServices
+
+  r2dbc:
+    url: r2dbc:postgresql://roundhouse.proxy.rlwy.net:16725/railway
+    username: postgres
+    password: pbjHWeAQiqEiqUvxBSNKChiSQFWmwURU
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+api:
+  computerVisionKey: b8434bc8abf5416bbc99984979915d7d
+  geminiApiKey: AIzaSyDlYL4_We2fa3ocDnRkq46zLQ0uLac-guA
+  imgbbApiKey: 48f0b98d6405f53cc1a50fbd37f63d46
