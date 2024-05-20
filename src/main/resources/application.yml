@@ -10,9 +10,9 @@ spring:
     name: CognitiveServices
 
   r2dbc:
-    url: r2dbc:postgresql://roundhouse.proxy.rlwy.net:16725/railway
+    url: r2dbc:postgresql://viaduct.proxy.rlwy.net:44177/railway
     username: postgres
-    password: pbjHWeAQiqEiqUvxBSNKChiSQFWmwURU
+    password: YdaEgxMNGlewdBTusrHINzTtKRuHGnZG
   servlet:
     multipart:
       max-file-size: 10MB
